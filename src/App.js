@@ -1,6 +1,8 @@
 import './App.css';
 import logoimg from '../src/assets/imagenes/stock-photo-cup.jpeg';
 import Boton from './components/Boton';
+import Pantalla from './components/Pantalla';
+
 function App() {
   return (
     <div className='App'>
@@ -12,6 +14,7 @@ function App() {
         />
       </div>
       <div className='contenedor-calculadora'>
+        <Pantalla />
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>2</Boton>
